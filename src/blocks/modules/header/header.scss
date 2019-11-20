@@ -108,37 +108,37 @@ h6{
 
 h1:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     width: 460px;
 }
 
 h2:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     width: 425px;
 }
 
 h3:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     width: 350px;
 }
 
 h4:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     width: 285px;
 }
 
 h5:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     width: 220px;
 }
 
 h6:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     width: 195px;
 }
 
@@ -152,7 +152,7 @@ ul{
       
     li{
         i{
-           color:#0287c3;
+           color:$p-1;
            padding: 10px;
         }
     }
@@ -165,31 +165,388 @@ ul{
 
 .Subtitle p:hover{
     color: white;
-    background-color: #03a9f4;
+    background-color: $p-1;
     padding:10px;
     width: 500px;
 }
 
 
  .Quotation{
-     @include background-fonts(#0287c3,#e6f7fe,"OpenSans-Regular",17px,400);
+     @include background-fonts($p-1,#e6f7fe,"OpenSans-Regular",17px,400);
      padding: 15px 10px;
-     border-left:solid 2px #03a9f4;
+     border-left:solid 2px $p-1;
  }
 
 
  .buttons{
      p{ margin: 10px;} 
+     
+     .btn-warningg{
+        width: 170px;
+        margin-bottom: 20px;
+        background-color: $p-2;
+        color: white;
+    }
    
+    .btn-warningg:hover{
+       width: 170px;
+       margin-bottom: 20px;
+       background-color: $l2-p2;
+       color: white;
+   }
+   
+    .btn-outline-warningg{
+       width: 170px;
+       margin-bottom: 20px;
+    }
+   
+    .btn-warninggg{
+       width: 170px;
+       margin-bottom: 20px;  
+       background-color: $p-1;
+       color: white;
+   }
+   
+   .btn-warninggg:hover{
+      width: 170px;
+      margin-bottom: 20px;
+      background-color: $l2-p1;
+      color: white;
+   }
+   .btn-outline-warningg{
+       width: 170px;
+       margin-bottom: 20px;
+       border-color: $p-2;
+       color: $p-2;
+    }
+    .btn-outline-warningg:hover{
+        width: 170px;
+        margin-bottom: 20px;
+        background-color: $l2-p2;
+        border-color: $l2-p2;
+        color: white;
+    }
+   .btn-outline-warninggg{
+      width: 170px;
+      margin-bottom: 20px;
+      border-color: $p-1;
+      color: $p-1;
+   }
+   .btn-outline-warninggg:hover{
+       width: 170px;
+       margin-bottom: 20px;
+       background-color: $l2-p1;
+       border-color: $l2-p1;
+       color: white;
+   }
+   
+   
+    .btn-warning:disabled{
+        background-color: $l2-p4;
+        border: $l2-p4;
+        color: white;
+        width: 170px;
+        margin-bottom: 50px;
+    }
+ }
+ .buttonss{
+     p{ margin: 10px;} 
+
+     .btn-warningg{
+        width: 120px;
+        margin-bottom: 20px;
+        background-color: $p-2;
+        color: white;
+    }
+   
+    .btn-warningg:hover{
+       width: 120px;
+       margin-bottom: 20px;
+       background-color: $l2-p2;
+       color: white;
+   }
+   
+    .btn-outline-warningg{
+       width: 120px;
+       margin-bottom: 20px;
+    }
+   
+    .btn-warninggg{
+       width: 120px;
+       margin-bottom: 20px;  
+       background-color: $p-1;
+       color: white;
+   }
+   
+   .btn-warninggg:hover{
+      width: 120px;
+      margin-bottom: 20px;
+      background-color: $l2-p1;
+      color: white;
+   }
+   .btn-outline-warningg{
+       width: 120px;
+       margin-bottom: 20px;
+       border-color: $p-2;
+       color: $p-2;
+    }
+    .btn-outline-warningg:hover{
+        width: 120px;
+        margin-bottom: 20px;
+        background-color: $l2-p2;
+        border-color: $l2-p2;
+        color: white;
+    }
+   .btn-outline-warninggg{
+      width: 120px;
+      margin-bottom: 20px;
+      border-color: $p-1;
+      color: $p-1;
+   }
+   .btn-outline-warninggg:hover{
+       width: 120px;
+       margin-bottom: 20px;
+       background-color: $l2-p1;
+       border-color: $l2-p1;
+       color: white;
+   }
+   
+   
+    .btn-warning:disabled{
+        background-color: $l2-p4;
+        border: $l2-p4;
+        color: white;
+        width: 120px;
+        margin-bottom: 50px;
+    }
  }
 
- .btn-warning:disabled{
-     background-color: black;
-     border: black;
-     color: grey;
+ .text {
+    input{
+     width: 250px;
+     border: solid 1px $l2-p4;
+     text-align: left;
  }
+}
+.text p:hover{
+    background-color: $p-1;
+    width: 150px;
+    color: white;
+    padding-left: 5px;
+}
+option:hover{
+    background-color: $l2-p1;
+}
+.btm{
+        display: inline-block;
+        font-weight: 400;
+        color: $p-4;
+        text-align: center;
+        width: 250px;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        /* border: 1px solid transparent; */
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        border-color:$l2-p4;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.textt p:hover{
+    background-color: $p-1;
+    width: 150px;
+    color: white;
+    padding-left: 5px;
+}
+.teext {
+    input{
+     width: 250px;
+     border: solid 1px $l2-p4;
+     text-align: left;
+     border-color: green;
+     color: green;
+ }
+ input[type="text"]::placeholder { color: green; }
+    i{
+        position: absolute;
+        right: 30px;
+        bottom: 10px;
+        color: green;
+    }
 
+}
+.teeext {
+    input{
+     width: 250px;
+     border: solid 1px $l2-p4;
+     text-align: left;
+     border-color: $p-2;
+     color: $p-2;
+ }
+ input[type="text"]::placeholder { color: $p-2; }
+ i{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    color: $p-2;
+}
+}
 
+.square input{
+    margin: 10px;
+    margin-top: 50px;
+}
+.square #checkbox:hover{
+    background-color: $p-1;
+    color: $p-1;
+}
+.square .label{
+    color: $l2-p4;
+}
+.circle .label{
+    color: $l2-p4;
+}
+.circle input{
+    margin: 10px;
+    margin-top: 10px;
+}
+.menu{ 
+    a:hover{
+        color: $p-2;
+    }
+    a{
+        text-decoration: none;
+        @include fonts(14px,$font-m,400,$p-4);
+        padding-bottom: 14px;
+    }
+    a:hover{
+        border-bottom: solid 2px $p-2;
+    }
+}
+.p{
+    color: $d3-p4
+}
+.pagination {
+    display: inline-block;
+}
 
+.pagination a {
+    color: $p-4;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 
- 
+.pagination a.active {
+    background-color: $p-1;
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50px;
+}
+.div{
+    margin-left: 5px;
+    margin-top: 10px;
+    .open{
+        width: 15px;
+        height: 15px;
+        border: 2px solid $p-1;
+        border-radius: 50%;
+    }
+    .closed{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: $p-4;
+        margin-left: 5px;
+    }
+}
+.infoo,.social{
+    margin-top: 40px;
+}
+.social{
+    padding-left: 60px;
+}
+.info{
+    border: 1px solid $p-4;
+    padding: 20px;
+}
+.sociall i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.sociall .colore{
+    margin-top: 20px;
+}
+.sociall .black i{
+    color: $p-4;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sociall .black i:hover{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sociall .colore i:hover{
+    color: white;
+}
+.sociall .colore i{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sociall .colore{
+    .ff{
+        color: $d2-p1;
+    }
+    .tt{
+        color: $p-1;
+    }
+    .pp{
+        color: red;
+    }
+    .gg{
+        color: $p-2;
+    }
+}
+.sociall:hover{
+    background-color: $p-1;
+    height: 140px;
+}
+.one{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: white solid 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.two{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $d1-p1;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.two:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $d1-p1;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
